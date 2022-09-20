@@ -3,8 +3,8 @@ Ped Creator for FiveM
 
 - Easy Ped Creator
 
-<sub>
-    Citizen.CreateThread(function()
+
+    <sub>Citizen.CreateThread(function()
     local ped_hash = 368603149 -- Ped Hash
     local ped_coords = { x = 461.0902, y = -992.383, z = 24.7, h = 100.0 } -- Ped Coords
  
@@ -21,5 +21,4 @@ Ped Creator for FiveM
     SetEntityInvincible(ped_info, true)    -- Ped Invincible
     FreezeEntityPosition(ped_info, true) -- Don't Change
   TaskStartScenarioInPlace(ped_info, "WORLD_HUMAN_COP_IDLES", 0, true); -- Ped Anim
-  end)
-</sub>
+  end)</sub>
