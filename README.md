@@ -1,12 +1,12 @@
 # rlanta-pedcreator
 Ped Creator for FiveM
 
-- Example
+- Easy Ped Creator
 
   ----------------------------------------------------------------------------------
 
-Citizen.CreateThread(function() -- Example
-    
+--
+    Citizen.CreateThread(function()
     local ped_hash = 368603149 -- Ped Hash
     local ped_coords = { x = 461.0902, y = -992.383, z = 24.7, h = 100.0 } -- Ped Coords
  
@@ -25,5 +25,6 @@ Citizen.CreateThread(function() -- Example
   TaskStartScenarioInPlace(ped_info, "WORLD_HUMAN_COP_IDLES", 0, true); -- Ped Anim
  
   end)
+--
 
   ----------------------------------------------------------------------------------
